@@ -233,7 +233,9 @@ img {
   color: var(--reserve-text-color);
 }
 
-.modal-btn {
+.modal-btn,
+.subs-btn,
+.send-btn {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 16px;
@@ -588,9 +590,10 @@ img {
 .footer-social {
   margin-left: 70px;
 }
-.join {
+.join,
+.subs-title {
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -621,6 +624,51 @@ img {
 }
 .social-logo {
   fill: currentColor;
+}
+
+/* ======== subscription ========= */
+.subscription-form {
+  display: block;
+  margin-left: 100px;
+  width: 570px;
+}
+.subs-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.icon-send {
+  margin-left: 10px;
+  fill: currentColor;
+}
+
+.subscription {
+  display: flex;
+}
+
+.subs-input {
+  padding: 15px 16px;
+  min-width: 358px;
+  min-height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ffffff;
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subs-input:focus {
+  outline: 1px solid var(--accent-text-color);
+}
+
+.subs-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* =============== AND FOOTER ===============*/

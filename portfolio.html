@@ -230,12 +230,12 @@
 
     <div class="container">
 
-        <div class="address">
+        <div class="address-footer">
             <a href="/" class="logo-link link footer-logo-link">
                 <span class="logo-left-part">Web</span><span class="logo-right-part-footer">Studio</span>
             </a>
 
-            <address class="adddress">
+            <address class="adddress-footer">
                 <ul class="footer-address-list list">
                     <li class="footer-address-location">
                         <a class="footer-address-link link" href="https://goo.gl/maps/4gvuH9WaciKbeUE69"
@@ -260,7 +260,8 @@
 
             <ul class="footer-social-list">
                 <li class="footer-social-item">
-                    <a class="footer-social-link" href="https://www.instagram.com/" rel="noreferrer noopener" target="_blank">
+                    <a class="footer-social-link" href="https://www.instagram.com/" rel="noreferrer noopener"
+                        target="_blank">
                         <svg class="social-logo" width="20px" height="20px" aria-label="instagram">
                             <use href="./images/sprite.svg#icon-instagramsvg"></use>
                         </svg>
@@ -274,14 +275,16 @@
                     </a>
                 </li>
                 <li class="footer-social-item">
-                    <a class="footer-social-link" href="https://www.facebook.com" rel="noreferrer noopener" target="_blank">
+                    <a class="footer-social-link" href="https://www.facebook.com" rel="noreferrer noopener"
+                        target="_blank">
                         <svg class="social-logo" width="20px" height="20px" aria-label="facebook">
                             <use href="./images/sprite.svg#icon-facebooksvg"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="footer-social-item">
-                    <a class="footer-social-link" href="https://www.linkedin.com" rel="noreferrer noopener" target="_blank">
+                    <a class="footer-social-link" href="https://www.linkedin.com" rel="noreferrer noopener"
+                        target="_blank">
                         <svg class="social-logo" width="20px" height="20px" aria-label="linkedin">
                             <use href="./images/sprite.svg#icon-linkedinsvg"></use>
                         </svg>
@@ -291,10 +294,27 @@
 
         </div>
 
-        </div>
+        <form class="subscription-form">
 
-        </footer>
-        
-        </body>
-        
-        </html>
+            <p class="subs-title">Подпишитесь на рассылку</p>
+
+            <div class="subscription">
+                <label for="subs-email"></label>
+                <input class="subs-input" id="subs-email" name="subs-email" type="email" placeholder="E-mail"
+                    autocomplete="email">
+                <button class="subs-btn" type="submit">Подписаться
+                    <svg class="icon-send" width="24px" height="24px">
+                        <use href="./images/sprite.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+
+</footer>
+
+</body>
+
+</html>

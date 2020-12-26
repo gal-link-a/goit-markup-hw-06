@@ -393,13 +393,13 @@
 
     <div class="container">
 
-      <div class="address">
+      <div class="address-footer">
 
         <a href="/" class="logo-link link footer-logo-link">
           <span class="logo-left-part">Web</span><span class="logo-right-part-footer">Studio</span>
         </a>
 
-        <address class="adddress">
+        <address class="adddress-footer">
 
           <ul class="footer-address-list list">
             <li class="footer-address-location">
@@ -458,7 +458,22 @@
 
       </div>
 
-    </div>
+      <form class="subscription-form">
+        
+        <p class="subs-title">Подпишитесь на рассылку</p>
+
+        <div class="subscription">
+          <label for="subs-email"></label>
+          <input class="subs-input" id="subs-email" name="subs-email" type="email" placeholder="E-mail" autocomplete="email">
+          <button class="subs-btn" type="submit">Подписаться
+            <svg class="icon-send" width="24px" height="24px">
+              <use href="./images/sprite.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+      
+      </div>
 
   </footer>
   <div class="backdrop is-hidden" data-modal>
